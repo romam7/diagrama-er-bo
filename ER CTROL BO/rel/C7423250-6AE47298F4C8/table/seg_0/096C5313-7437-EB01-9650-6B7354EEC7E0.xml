@@ -1,0 +1,287 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="096C5313-7437-EB01-9650-6B7354EEC7E0" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="TA_EVENTO_CB">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>TA_EVENTO_CB</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_TRANSACCION" id="041636D8-6A1D-628B-2917-364396850A7F">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FI_ID_TRANSACCION</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="FI_ID_USUARIO_REGISTRO" id="F53B3CEA-1BC2-F71A-8F1C-435783C2E424">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FI_ID_USUARIO_REGISTRO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B13FEA7-E571-54FA-4BDF-8E5E637E1C20" referredColumn="02A05CD6-E0A7-F9ED-DBA1-3326249157CA"/>
+</associations>
+</Column>
+<Column name="FI_ID_ESTATUS_TRANSMISION" id="F6A35BEB-197A-C2EA-0877-6C3CD79EF48F">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FI_ID_ESTATUS_TRANSMISION</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9229D755-E10C-CA35-A695-21BA7B702FB8" referredColumn="A28E32CF-D447-3350-677B-E6C057B26578"/>
+</associations>
+</Column>
+<Column name="FI_ID_TIPO_TRANSACCION" id="D8C3AF56-22AC-56B4-AD43-8747AAA22824">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FI_ID_TIPO_TRANSACCION</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C10784F-03BE-9976-7110-FAB320A481A8" referredColumn="B1E5BFB5-4B69-6CDE-4CAC-EC0F7930E53B"/>
+</associations>
+</Column>
+<Column name="FD_FECHA_REGISTRO" id="1EBA1134-0B52-B625-F38C-E0B2EFF9E880">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FD_FECHA_REGISTRO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_SISTEMA_REGISTRO" id="122B922C-3C65-9A0C-A086-F38670798FD2">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FC_SISTEMA_REGISTRO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_JSON" id="C46F1DA5-25E6-E257-5CF4-3AAFDE1217C4">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FC_JSON</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_ID_WORKER" id="E63DBD79-EBAB-F95F-630B-250B9F1E4A03">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FC_ID_WORKER</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_LECTURA" id="C3E9E123-63C2-AAA4-BD85-C6A4C3325DBD">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FD_FECHA_LECTURA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHA_PROCESAMIENTO" id="7078B978-9CE5-B65D-0FD2-96258B0D0D6C">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FD_FECHA_PROCESAMIENTO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_KAFKA_ID" id="60820D22-8887-0AD1-7578-75B5E287D460">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FC_KAFKA_ID</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_ESTATUS" id="A1248FC9-947B-3B39-C1B7-9A5968FDA3F2">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FI_ESTATUS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USERMOD" id="CF80CC01-8FEF-2FDB-635A-25B37BA1B140">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FC_USERMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>USER</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHAMOD" id="8B1D1B3F-306B-1409-1648-106315C381E0">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_EVENTO_CB</sourceObjSchema>
+<sourceObjName>FD_FECHAMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9964A20-279A-E8E5-F7ED-BFAED34BC204" name="PK_EVT_ID_TRANSM">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>PK_EVT_ID_TRANSM</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="041636D8-6A1D-628B-2917-364396850A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F39EE66-0D8E-49D2-040C-0B6A4FD6A17B" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="IX_EVT_ID_TRANS">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>IX_EVT_ID_TRANS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="041636D8-6A1D-628B-2917-364396850A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AD44297-F4CC-11C8-460E-5A8814FFFB5B" name="FK_EVENTO_TIPO_TRANSM">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8C3AF56-22AC-56B4-AD43-8747AAA22824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="900E11DB-5DE5-A073-ED55-9BD6A25FDD0B" name="FK_EVENTO_TRANSMISION">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6A35BEB-197A-C2EA-0877-6C3CD79EF48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E416C9C-3847-8A13-3487-8CFE07EA1F1F" name="FK_EVENTO_USUARIO">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53B3CEA-1BC2-F71A-8F1C-435783C2E424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

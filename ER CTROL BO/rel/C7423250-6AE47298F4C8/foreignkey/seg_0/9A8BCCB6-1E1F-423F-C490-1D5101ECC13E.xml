@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A8BCCB6-1E1F-423F-C490-1D5101ECC13E" containerWithKeyObject="CB7ACCA9-5E56-F6FB-7039-02EEAF3653DD" localFKIndex="C31A5667-160A-1E61-BFA5-324A5870A357" name="FK_TOPICO_CONSU_PERMI">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>FK_TOPICO_CONSU_PERMI</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<referredTableLongName>URSCTRLBO.CT_PERMISO_TOPICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8D9621E-7CD7-30F8-1BA3-2892F117BD12</referredTableID>
+<keyObject>F84957F5-FAE2-FF31-65AA-4ED562245289</keyObject>
+<referredKeyID>F84957F5-FAE2-FF31-65AA-4ED562245289</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_PERMISO_TOPICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

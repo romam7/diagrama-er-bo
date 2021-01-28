@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC80363B-72FA-259A-111E-3ACB54720B46" containerWithKeyObject="5B1BDD61-87A5-8098-8F7F-7303267C9ECE" localFKIndex="E631D019-E4A7-7B21-6E68-F811944F22E2" name="FK_TRANSACC_ESQUEMA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>FK_TRANSACC_ESQUEMA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<referredTableLongName>URSCTRLBO.TA_ESQUEMA_AVRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0699FB7C-034E-FBE7-D634-338E4D584706</referredTableID>
+<keyObject>921805EE-4404-BBE4-820A-DF39334785B1</keyObject>
+<referredKeyID>921805EE-4404-BBE4-820A-DF39334785B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_ESQUEMA_AVRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

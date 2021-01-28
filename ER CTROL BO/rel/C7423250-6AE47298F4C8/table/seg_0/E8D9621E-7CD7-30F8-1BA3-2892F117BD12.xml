@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8D9621E-7CD7-30F8-1BA3-2892F117BD12" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="CT_PERMISO_TOPICO">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>CT_PERMISO_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_PERMISO_TOPICO" id="19EDBBBD-3270-EEAF-F5D8-35CFB971A2B9">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_PERMISO_TOPICO</sourceObjSchema>
+<sourceObjName>FI_ID_PERMISO_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="FC_PERMISO_TOPICO" id="0594A221-BA3D-8740-05A1-DE107AADE184">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_PERMISO_TOPICO</sourceObjSchema>
+<sourceObjName>FC_PERMISO_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_DESCRIPCION" id="A13F347A-CD5D-8371-F6F6-8755CCA0336A">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_PERMISO_TOPICO</sourceObjSchema>
+<sourceObjName>FC_DESCRIPCION</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_ESTATUS" id="486178A6-B743-5B57-88AB-C5484F985C50">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_PERMISO_TOPICO</sourceObjSchema>
+<sourceObjName>FI_ESTATUS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USERMOD" id="7FEB507E-4C36-CD57-64BC-D8630C73A9F7">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_PERMISO_TOPICO</sourceObjSchema>
+<sourceObjName>FC_USERMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>USER</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHAMOD" id="F6FCC244-97D2-2C96-1705-A7AD0CF60B1D">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_PERMISO_TOPICO</sourceObjSchema>
+<sourceObjName>FD_FECHAMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F84957F5-FAE2-FF31-65AA-4ED562245289" name="PK_PERMISO_TOPICO">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>PK_PERMISO_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19EDBBBD-3270-EEAF-F5D8-35CFB971A2B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC135789-3D2F-2492-4D22-F833EE561F3B" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="IX_PERM_TOPICO">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>IX_PERM_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19EDBBBD-3270-EEAF-F5D8-35CFB971A2B9"/>
+<colUsage columnID="0594A221-BA3D-8740-05A1-DE107AADE184"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69BE92A7-EF30-093F-C2C3-8BF6FE4828FE" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="PK_PERMISO_TOPICO">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>PK_PERMISO_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19EDBBBD-3270-EEAF-F5D8-35CFB971A2B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

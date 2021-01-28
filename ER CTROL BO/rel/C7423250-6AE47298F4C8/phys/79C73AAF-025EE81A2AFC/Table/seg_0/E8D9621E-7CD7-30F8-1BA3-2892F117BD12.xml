@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CT_PERMISO_TOPICO" directorySegmentName="seg_0" id="E8D9621E-7CD7-30F8-1BA3-2892F117BD12">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>116FBDD0-05B0-C737-DCF9-2A2000AF94BF</segment>
+<tableSpace>511C5614-2D61-5E71-005B-0ACB22BF8601</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_PERMISO_TOPICO" id="0594A221-BA3D-8740-05A1-DE107AADE184">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_PERMISO_TOPICO" id="19EDBBBD-3270-EEAF-F5D8-35CFB971A2B9">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="FI_ESTATUS" id="486178A6-B743-5B57-88AB-C5484F985C50">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FC_USERMOD" id="7FEB507E-4C36-CD57-64BC-D8630C73A9F7">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>USER</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FC_DESCRIPCION" id="A13F347A-CD5D-8371-F6F6-8755CCA0336A">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHAMOD" id="F6FCC244-97D2-2C96-1705-A7AD0CF60B1D">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PERMISO_TOPICO" id="69BE92A7-EF30-093F-C2C3-8BF6FE4828FE">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>6881CB0E-A939-8D06-FC87-C52228BFA361</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_PERM_TOPICO" id="CC135789-3D2F-2492-4D22-F833EE561F3B">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>NO</logging>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>2FD4B936-402D-CFFE-AA9E-3CE8D1B6E2B9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PERMISO_TOPICO" id="F84957F5-FAE2-FF31-65AA-4ED562245289">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>6881CB0E-A939-8D06-FC87-C52228BFA361</tableSpace>
+<existingIndex>69BE92A7-EF30-093F-C2C3-8BF6FE4828FE</existingIndex>
+<indexSegment>99309B6B-5D18-3D2B-76EB-7676F6890995</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

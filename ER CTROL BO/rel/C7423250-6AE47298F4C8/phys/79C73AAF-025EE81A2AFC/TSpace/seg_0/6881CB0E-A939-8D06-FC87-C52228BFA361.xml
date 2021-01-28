@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBS_URSCTRLBO" directorySegmentName="seg_0" id="6881CB0E-A939-8D06-FC87-C52228BFA361">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjName>TBS_URSCTRLBO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+</TableSpaceOraclev10g>

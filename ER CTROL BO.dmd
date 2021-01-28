@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER CTROL BO" id="9EB8058F-210C-E2F7-F22E-0EBB68583528" version="3.5">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:24:25 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9EB8058F-210C-E2F7-F22E-0EBB68583528</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9870FF86-1DA0-DF72-AEC5-270F5F17E996">
+<designStoragePath>E:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

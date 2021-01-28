@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C552A878-CEC6-3139-0775-0C5F4C3339A1" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="CT_TOPICO_KAFKA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>CT_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_TOPICO_KAFKA" id="AC288D1E-3F9B-B470-A1A1-8C3B73D7B03F">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_TOPICO_KAFKA</sourceObjSchema>
+<sourceObjName>FI_ID_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="FC_TOPICO_KAFKA" id="32C7FD8B-609B-CCF5-34D3-EC91A8D871F1">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_TOPICO_KAFKA</sourceObjSchema>
+<sourceObjName>FC_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_DESCRIPCION" id="6CB92D86-E8CF-5014-A97B-75B6536ACBBB">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_TOPICO_KAFKA</sourceObjSchema>
+<sourceObjName>FC_DESCRIPCION</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_ESTATUS" id="ED452FF0-5A3D-3557-F7BF-AD674753DD16">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_TOPICO_KAFKA</sourceObjSchema>
+<sourceObjName>FI_ESTATUS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USERMOD" id="B4D36AE4-F95E-41DC-6D91-794F664312AE">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_TOPICO_KAFKA</sourceObjSchema>
+<sourceObjName>FC_USERMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>USER</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHAMOD" id="37B3A7A9-545C-8F4C-C4E3-E0460928E9F5">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_TOPICO_KAFKA</sourceObjSchema>
+<sourceObjName>FD_FECHAMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B84CE2B3-CF34-3A1E-F8A1-9FC5DF10D11E" name="PK_CT_TOPICO_KAFKA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>PK_CT_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC288D1E-3F9B-B470-A1A1-8C3B73D7B03F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="456F009C-8FFB-4F55-CE53-1FB675D72746" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="CT_TOPICO_KAFKA_FC_TOPICO_KAFKA_UN">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>SYS_C0044064</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32C7FD8B-609B-CCF5-34D3-EC91A8D871F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2500EDAD-32D8-2A54-19C7-01902E9302B9" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="IX_TOPICO_KAFKA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>IX_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC288D1E-3F9B-B470-A1A1-8C3B73D7B03F"/>
+<colUsage columnID="32C7FD8B-609B-CCF5-34D3-EC91A8D871F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="845E0D24-DBB7-2F1E-2A8D-8B00CEE6B0E6" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="PK_CT_TOPICO_KAFKA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>PK_CT_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC288D1E-3F9B-B470-A1A1-8C3B73D7B03F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

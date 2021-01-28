@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15A1390C-81FD-23E6-1209-72DB254A5D43" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="CT_CATALOGO_CB">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>CT_CATALOGO_CB</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>CD05A2FF-5C69-FF0C-3C02-21FE098F91B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_CATALOGO" id="C81FB365-9169-A80D-9AE8-789B26A98FEB">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_CATALOGO_CB</sourceObjSchema>
+<sourceObjName>FI_ID_CATALOGO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>71EA388A-C79B-9A33-67AE-23B88ED5CE45</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="FC_DESCRIPCION" id="F419FEE8-FA4D-7DDF-0EA9-42BC59ADDC37">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_CATALOGO_CB</sourceObjSchema>
+<sourceObjName>FC_DESCRIPCION</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>CBE0A4F8-E158-84E7-939E-A15CD4123BCC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FI_ESTATUS" id="B69D21DB-A156-8A4E-F354-D0B8070B9815">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_CATALOGO_CB</sourceObjSchema>
+<sourceObjName>FI_ESTATUS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>C8E57731-A054-921C-9BC0-F485DF4BB83B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USERMOD" id="24635731-1DEB-0FEB-5E72-A7492B7072D2">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_CATALOGO_CB</sourceObjSchema>
+<sourceObjName>FC_USERMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>972F3AC8-04A7-A424-3CB1-21DEFB39F1F9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>USER</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHAMOD" id="D2A8924E-8EBA-BAC1-EA03-7F5A658CBFB3">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>CT_CATALOGO_CB</sourceObjSchema>
+<sourceObjName>FD_FECHAMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>57756CCB-C2BE-03BE-A94D-F491B0933988</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0894009C-AD7E-5DA2-EEE9-903FA9F0B7E6" name="PK_ID_CAT_CAT">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>PK_ID_CAT_CAT</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>DDA52A4A-6F8A-2BF6-C778-EFBCC5E36502</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C81FB365-9169-A80D-9AE8-789B26A98FEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45B7A323-B17E-EBE0-1B42-FFB0C83F7F72" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="IX_CT_ID_CAT">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>IX_CT_ID_CAT</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 22:16:28 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<importedID>E7B0764A-595F-1F1E-A4EA-428AEE30B779</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C81FB365-9169-A80D-9AE8-789B26A98FEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

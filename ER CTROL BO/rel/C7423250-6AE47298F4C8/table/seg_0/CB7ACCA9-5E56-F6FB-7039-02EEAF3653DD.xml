@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB7ACCA9-5E56-F6FB-7039-02EEAF3653DD" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="TA_TOPICO_CONSUMIDOR_KAFKA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FI_ID_TOPICO_KAFKA" id="57DC05F1-572E-8230-47C0-D42E539543DA">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjSchema>
+<sourceObjName>FI_ID_TOPICO_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EE5E3F0-BFFB-41DB-4D27-F3C23672E878" referredColumn="AC288D1E-3F9B-B470-A1A1-8C3B73D7B03F"/>
+</associations>
+</Column>
+<Column name="FI_ID_CONSUMIDOR_KAFKA" id="DDFD864B-5F71-5C4F-2276-BD11D45FAD96">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjSchema>
+<sourceObjName>FI_ID_CONSUMIDOR_KAFKA</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="542DF2AD-C091-7F0E-E493-6248D2C8ABA5" referredColumn="1F545BD6-6E86-D53D-9DF7-D8328CD93BE1"/>
+</associations>
+</Column>
+<Column name="FI_ID_PERMISO_TOPICO" id="6BD0ABB2-C64D-867B-E50B-20BD732FCF4A">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjSchema>
+<sourceObjName>FI_ID_PERMISO_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A8BCCB6-1E1F-423F-C490-1D5101ECC13E" referredColumn="19EDBBBD-3270-EEAF-F5D8-35CFB971A2B9"/>
+</associations>
+</Column>
+<Column name="FI_ESTATUS" id="A7B5A62A-B8CF-F756-5B84-0D573154FAD0">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjSchema>
+<sourceObjName>FI_ESTATUS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FC_USERMOD" id="E0080DB4-FEEB-8371-9542-5F92262EEFFD">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjSchema>
+<sourceObjName>FC_USERMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>USER</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FECHAMOD" id="9D870BEB-8AA7-08BD-BBC1-B9DCB37B5567">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>TA_TOPICO_CONSUMIDOR_KAFKA</sourceObjSchema>
+<sourceObjName>FD_FECHAMOD</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32657378-1CAA-3D71-BF46-25B2A9BDD637" schemaObject="C973D684-C63B-8C00-6251-6AEA5E6E9EB8" name="IX_TOPICO_CONSU">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>IX_TOPICO_CONSU</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DC05F1-572E-8230-47C0-D42E539543DA"/>
+<colUsage columnID="DDFD864B-5F71-5C4F-2276-BD11D45FAD96"/>
+<colUsage columnID="6BD0ABB2-C64D-867B-E50B-20BD732FCF4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65F5000B-C0EE-A354-AF44-E8CB4CCDDB9D" name="FK_TOPICO_CONSU">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFD864B-5F71-5C4F-2276-BD11D45FAD96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C31A5667-160A-1E61-BFA5-324A5870A357" name="FK_TOPICO_CONSU_PERMI">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD0ABB2-C64D-867B-E50B-20BD732FCF4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9F31236-A324-F988-9A8F-FBB970457D38" name="FK_TOPICO_CONSU_TOPICO">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DC05F1-572E-8230-47C0-D42E539543DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

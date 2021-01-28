@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TA_EVENTO_CB" directorySegmentName="seg_0" id="096C5313-7437-EB01-9650-6B7354EEC7E0">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>116FBDD0-05B0-C737-DCF9-2A2000AF94BF</segment>
+<tableSpace>511C5614-2D61-5E71-005B-0ACB22BF8601</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FI_ID_TRANSACCION" id="041636D8-6A1D-628B-2917-364396850A7F">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="FC_SISTEMA_REGISTRO" id="122B922C-3C65-9A0C-A086-F38670798FD2">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_REGISTRO" id="1EBA1134-0B52-B625-F38C-E0B2EFF9E880">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_KAFKA_ID" id="60820D22-8887-0AD1-7578-75B5E287D460">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_PROCESAMIENTO" id="7078B978-9CE5-B65D-0FD2-96258B0D0D6C">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHAMOD" id="8B1D1B3F-306B-1409-1648-106315C381E0">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FI_ESTATUS" id="A1248FC9-947B-3B39-C1B7-9A5968FDA3F2">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHA_LECTURA" id="C3E9E123-63C2-AAA4-BD85-C6A4C3325DBD">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_JSON" id="C46F1DA5-25E6-E257-5CF4-3AAFDE1217C4">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_USERMOD" id="CF80CC01-8FEF-2FDB-635A-25B37BA1B140">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>USER</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_TIPO_TRANSACCION" id="D8C3AF56-22AC-56B4-AD43-8747AAA22824">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FC_ID_WORKER" id="E63DBD79-EBAB-F95F-630B-250B9F1E4A03">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_USUARIO_REGISTRO" id="F53B3CEA-1BC2-F71A-8F1C-435783C2E424">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_ESTATUS_TRANSMISION" id="F6A35BEB-197A-C2EA-0877-6C3CD79EF48F">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_EVT_ID_TRANS" id="9F39EE66-0D8E-49D2-040C-0B6A4FD6A17B">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>NO</logging>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>2FD4B936-402D-CFFE-AA9E-3CE8D1B6E2B9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EVENTO_USUARIO" id="0E416C9C-3847-8A13-3487-8CFE07EA1F1F">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EVENTO_TRANSMISION" id="900E11DB-5DE5-A073-ED55-9BD6A25FDD0B">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EVENTO_TIPO_TRANSM" id="9AD44297-F4CC-11C8-460E-5A8814FFFB5B">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000289881C00007$$" id="1278AA62-C2DF-3885-7A7B-B375642FB5B3">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:19 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>FC_JSON</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>511C5614-2D61-5E71-005B-0ACB22BF8601</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EVT_ID_TRANSM" id="D9964A20-279A-E8E5-F7ED-BFAED34BC204">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<logging>NO</logging>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>2FD4B936-402D-CFFE-AA9E-3CE8D1B6E2B9</tableSpace>
+<existingIndex>9F39EE66-0D8E-49D2-040C-0B6A4FD6A17B</existingIndex>
+<indexSegment>99309B6B-5D18-3D2B-76EB-7676F6890995</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

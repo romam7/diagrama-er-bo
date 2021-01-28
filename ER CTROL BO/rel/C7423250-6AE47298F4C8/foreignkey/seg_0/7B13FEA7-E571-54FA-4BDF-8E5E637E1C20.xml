@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B13FEA7-E571-54FA-4BDF-8E5E637E1C20" containerWithKeyObject="096C5313-7437-EB01-9650-6B7354EEC7E0" localFKIndex="0E416C9C-3847-8A13-3487-8CFE07EA1F1F" name="FK_EVENTO_USUARIO">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>FK_EVENTO_USUARIO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<referredTableLongName>URSCTRLBO.TA_USUARIO_REGISTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC9CFDEB-0959-180C-E0C2-43A964EE2AC9</referredTableID>
+<keyObject>D5E82028-9018-AC83-D2E9-F6795766F19F</keyObject>
+<referredKeyID>D5E82028-9018-AC83-D2E9-F6795766F19F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_USUARIO_REGISTRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MDSYS" directorySegmentName="seg_0" id="MDSYS">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjName>MDSYS</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:28:36 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>03C2EB73-4848-32DD-8DB3-F3F766589014</schemaObject>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+</UserOraclev10g>

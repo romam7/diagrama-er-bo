@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C10784F-03BE-9976-7110-FAB320A481A8" containerWithKeyObject="096C5313-7437-EB01-9650-6B7354EEC7E0" localFKIndex="9AD44297-F4CC-11C8-460E-5A8814FFFB5B" name="FK_EVENTO_TIPO_TRANSM">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>FK_EVENTO_TIPO_TRANSM</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<referredTableLongName>URSCTRLBO.CT_TIPO_TRANSACCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B088C67-4367-7796-54F9-B5A20F043739</referredTableID>
+<keyObject>76B78E9D-0D7D-848F-B844-84AB7BD89B94</keyObject>
+<referredKeyID>76B78E9D-0D7D-848F-B844-84AB7BD89B94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_TIPO_TRANSACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

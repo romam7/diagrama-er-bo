@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2EE5E3F0-BFFB-41DB-4D27-F3C23672E878" containerWithKeyObject="CB7ACCA9-5E56-F6FB-7039-02EEAF3653DD" localFKIndex="B9F31236-A324-F988-9A8F-FBB970457D38" name="FK_TOPICO_CONSU_TOPICO">
+<sourceConnName>URSCTRLBO_DESA</sourceConnName>
+<sourceObjSchema>URSCTRLBO</sourceObjSchema>
+<sourceObjName>FK_TOPICO_CONSU_TOPICO</sourceObjName>
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<referredTableLongName>URSCTRLBO.CT_TOPICO_KAFKA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C552A878-CEC6-3139-0775-0C5F4C3339A1</referredTableID>
+<keyObject>B84CE2B3-CF34-3A1E-F8A1-9FC5DF10D11E</keyObject>
+<referredKeyID>B84CE2B3-CF34-3A1E-F8A1-9FC5DF10D11E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FI_ID_TOPICO_KAFKA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

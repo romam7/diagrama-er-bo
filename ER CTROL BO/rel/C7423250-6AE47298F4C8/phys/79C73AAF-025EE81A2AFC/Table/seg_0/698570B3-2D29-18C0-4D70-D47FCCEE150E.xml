@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CT_ESTATUS_TRANSMISION" directorySegmentName="seg_0" id="698570B3-2D29-18C0-4D70-D47FCCEE150E">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>116FBDD0-05B0-C737-DCF9-2A2000AF94BF</segment>
+<tableSpace>511C5614-2D61-5E71-005B-0ACB22BF8601</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_ESTATUS_TRANSMISION" id="9ECA4FA4-91D1-2ED9-3CB5-1E70A36BCF98">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_ESTATUS_TRANSMISION" id="A28E32CF-D447-3350-677B-E6C057B26578">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="FC_USERMOD" id="AE17E897-1E16-40AE-5769-DA40DBC7F13F">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>USER</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHAMOD" id="B1F66FCC-1539-D143-3047-DCDF330EF57F">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FI_ESTATUS" id="C2B9485E-8D1A-901D-CA15-96A1064B43C1">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_EST_TRANSMI" id="11A47FD0-B499-77B8-3A06-C35BB2BF1CF1">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>NO</logging>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>2FD4B936-402D-CFFE-AA9E-3CE8D1B6E2B9</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ESTATUS_TRANSMISION" id="2E5FC565-5C58-D66A-98D1-11BCC8783CEE">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>6881CB0E-A939-8D06-FC87-C52228BFA361</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ESTATUS_TRANSMISION" id="8676FEF7-DFA9-029E-3874-9DFAED02B320">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>6881CB0E-A939-8D06-FC87-C52228BFA361</tableSpace>
+<existingIndex>2E5FC565-5C58-D66A-98D1-11BCC8783CEE</existingIndex>
+<indexSegment>99309B6B-5D18-3D2B-76EB-7676F6890995</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

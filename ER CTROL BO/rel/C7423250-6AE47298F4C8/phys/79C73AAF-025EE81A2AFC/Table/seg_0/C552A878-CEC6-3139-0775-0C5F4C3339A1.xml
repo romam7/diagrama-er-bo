@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CT_TOPICO_KAFKA" directorySegmentName="seg_0" id="C552A878-CEC6-3139-0775-0C5F4C3339A1">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>116FBDD0-05B0-C737-DCF9-2A2000AF94BF</segment>
+<tableSpace>511C5614-2D61-5E71-005B-0ACB22BF8601</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FC_TOPICO_KAFKA" id="32C7FD8B-609B-CCF5-34D3-EC91A8D871F1">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FD_FECHAMOD" id="37B3A7A9-545C-8F4C-C4E3-E0460928E9F5">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FC_DESCRIPCION" id="6CB92D86-E8CF-5014-A97B-75B6536ACBBB">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FI_ID_TOPICO_KAFKA" id="AC288D1E-3F9B-B470-A1A1-8C3B73D7B03F">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="FC_USERMOD" id="B4D36AE4-F95E-41DC-6D91-794F664312AE">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>USER</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FI_ESTATUS" id="ED452FF0-5A3D-3557-F7BF-AD674753DD16">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:16 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_TOPICO_KAFKA" id="2500EDAD-32D8-2A54-19C7-01902E9302B9">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<logging>NO</logging>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>2FD4B936-402D-CFFE-AA9E-3CE8D1B6E2B9</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CT_TOPICO_KAFKA" id="845E0D24-DBB7-2F1E-2A8D-8B00CEE6B0E6">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>6881CB0E-A939-8D06-FC87-C52228BFA361</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CT_TOPICO_KAFKA" id="B84CE2B3-CF34-3A1E-F8A1-9FC5DF10D11E">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>6881CB0E-A939-8D06-FC87-C52228BFA361</tableSpace>
+<existingIndex>845E0D24-DBB7-2F1E-2A8D-8B00CEE6B0E6</existingIndex>
+<indexSegment>99309B6B-5D18-3D2B-76EB-7676F6890995</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CT_TOPICO_KAFKA_FC_TOPICO_KAFKA_UN" id="456F009C-8FFB-4F55-CE53-1FB675D72746">
+<createdBy>rbadillog</createdBy>
+<createdTime>2021-01-28 21:29:18 UTC</createdTime>
+<ownerDesignName>ER CTROL BO</ownerDesignName>
+<schemaObject>C973D684-C63B-8C00-6251-6AEA5E6E9EB8</schemaObject>
+<segment>99309B6B-5D18-3D2B-76EB-7676F6890995</segment>
+<tableSpace>511C5614-2D61-5E71-005B-0ACB22BF8601</tableSpace>
+<indexSegment>99309B6B-5D18-3D2B-76EB-7676F6890995</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>
