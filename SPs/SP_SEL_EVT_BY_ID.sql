@@ -1,16 +1,16 @@
 /*************************************************************
     Proyecto: Control BackOffice
-    DescripciÃ³n: Selecciona los campos FD_FECHA_REGISTRO, FI_ID_TRANSACCION, FC_TIPO_TRANSACCION, FC_USUARIO_REGISTRO y FC_JSON de TA_EVENTO_CB
+    Descripción: Selecciona los campos FD_FECHA_REGISTRO, FI_ID_TRANSACCION, FC_TIPO_TRANSACCION, FC_USUARIO_REGISTRO y FC_JSON de TA_EVENTO_CB
         CT_TIPO_TRANSACCION, TA_USUARIO_REGISTRO
-    ParÃ¡metros de entrada:
+    Parámetros de entrada:
         PI_ID_TRANSACCION - Id de transaccion a obtener, equivalente al campo FI_ID_TRANSACCION en TA_EVENTO_CB
-    ParÃ¡metros de salida:
+    Parámetros de salida:
         PO_CUR_RESULTS - Puntero con todos los datos encontrados
-        PO_MESSAGE_CODE - CÃ³digo regresado por el SP, indica error o Ã©xito
-        PO_MESSAGE -  Mensaje relacionado al tipo de cÃ³digo
+        PO_MESSAGE_CODE - Código regresado por el SP, indica error o éxito
+        PO_MESSAGE -  Mensaje relacionado al tipo de código
     Precondiciones: Existir datos en la tabla CT_CONSUMIDOR_KAFKA, TA_TRANSACCION_ESQUEMA, TA_ESQUEMA_AVRO, TA_TOPICO_CONSUMIDOR 
-    Creador: RomÃ¡n Badillo GonzÃ¡lez
-    Fecha de creaciÃ³n: 02/02/2021
+    Creador: Román Badillo González
+    Fecha de creación: 02/02/2021
 *************************************************************/
 CREATE OR REPLACE PROCEDURE SP_SEL_EVT_BY_ID(
     PI_ID_TRANSACCION   IN      INTEGER

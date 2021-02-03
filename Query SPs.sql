@@ -389,7 +389,7 @@ END SP_SEL_EVT_TOPICOS;
         PO_MESSAGE -  Mensaje relacionado al tipo de código
     Precondiciones: Existir datos en la tabla TA_EVENTO_CB
     Creador: Román Badillo González
-    Fecha de creación: 02/02/2021
+    Fecha de creación: 03/02/2021
 *************************************************************/
 CREATE OR REPLACE PROCEDURE SP_INS_EVENTO_CB(
     PI_ID_USUARIO_REGISTRO      IN      NUMBER

@@ -1,14 +1,14 @@
 /*************************************************************
     Proyecto: Control BackOffice
-    DescripciÃ³n: Selecciona los campos FI_ID_TIPO_TRANSACCION y FC_TIPO_TRANSACCION del catÃ¡logo CT_TIPO_TRANSACCION
-    ParÃ¡metros de entrada: NA
-    ParÃ¡metros de salida:
+    Descripción: Selecciona los campos FI_ID_TIPO_TRANSACCION y FC_TIPO_TRANSACCION del catálogo CT_TIPO_TRANSACCION
+    Parámetros de entrada: NA
+    Parámetros de salida:
         PO_CUR_RESULTS - Puntero con todos los datos encontrados
-        PO_MESSAGE_CODE - CÃ³digo regresado por el SP, indica error o Ã©xito
-        PO_MESSAGE -  Mensaje relacionado al tipo de cÃ³digo
+        PO_MESSAGE_CODE - Código regresado por el SP, indica error o éxito
+        PO_MESSAGE -  Mensaje relacionado al tipo de código
     Precondiciones: Existir datos en la tabla CT_TIPO_TRANSACCION
-    Creador: RomÃ¡n Badillo GonzÃ¡lez
-    Fecha de creaciÃ³n: 02/02/2021
+    Creador: Román Badillo González
+    Fecha de creación: 02/02/2021
 *************************************************************/
 CREATE OR REPLACE PROCEDURE SP_SEL_TIPO_TRANSACCION(
     PO_CUR_RESULTS		OUT 	SYS_REFCURSOR
