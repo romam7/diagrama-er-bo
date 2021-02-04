@@ -1,26 +1,25 @@
 /*************************************************************
     Proyecto: Control BackOffice
-    Descripción: Selecciona los campos FD_FECHA_REGISTRO, FI_ID_TRANSACCION, FC_TIPO_TRANSACCION, FC_USUARIO_REGISTRO y FC_JSON de TA_EVENTO_CB
-        CT_TIPO_TRANSACCION, TA_USUARIO_REGISTRO
-    Parámetros de entrada:
+    DescripciÃ³n: Selecciona los campos FD_FECHA_REGISTRO, FI_ID_TRANSACCION, FC_TIPO_TRANSACCION, FC_USUARIO_REGISTRO de TA_EVENTO_CB
+        realizando varios jois con diferentes tablas.
+    ParÃ¡metros de entrada:
         PI_TIPO_TRANSACCION - Equivalente al campo FC_TIPO_TRANSACCION EN CT_TIPO_TRANSACCION
         PI_FECHA_REG_INI - Equivalente al campo FD_FECHA_REGISTRO EN TA_EVENTO_CB (inicial)
-        PI_FECHA_REG_FIN - Equivalente al campo FD_FECHA_REGISTRO EN TA_EVENTO_CB (final)
-        PI_TOPICO_KAFKA - ID del tópico de kafka
-    Parámetros de salida:
+        PI_FECHA_REG_INI - Equivalente al campo FD_FECHA_REGISTRO EN TA_EVENTO_CB (final)
+        PI_ID_CONS_KAFKA - ID del consumidor de kafka
+    ParÃ¡metros de salida:
         PO_CUR_RESULTS - Puntero con todos los datos encontrados
-        PO_MESSAGE_CODE - Código regresado por el SP, indica error o éxito
-        PO_MESSAGE -  Mensaje relacionado al tipo de código
+        PO_MESSAGE_CODE - CÃ³digo regresado por el SP, indica error o Ã©xito
+        PO_MESSAGE -  Mensaje relacionado al tipo de cÃ³digo
     Precondiciones: Existir datos en la tabla CT_CONSUMIDOR_KAFKA, TA_TRANSACCION_ESQUEMA, TA_ESQUEMA_AVRO, TA_TOPICO_CONSUMIDOR 
-    Creador: Román Badillo González
-    Fecha de creación: 02/02/2021
-    Fecha de modificación: 03/02/2021
+    Creador: RomÃ¡n Badillo GonzÃ¡lez
+    Fecha de creaciÃ³n: 03/02/2021
 *************************************************************/
-create or replace PROCEDURE SP_SEL_EVT_TOPICOS(
+create or replace PROCEDURE SP_SEL_EVT_CONSUMIDORES(
     PI_TIPO_TRANSACCION     IN      INTEGER
     ,PI_FECHA_REG_INI       IN      VARCHAR2
     ,PI_FECHA_REG_FIN       IN      VARCHAR2
-    ,PI_TOPICO_KAFKA        IN      INTEGER
+    ,PI_ID_CONS_KAFKA       IN      INTEGER
     ,PO_CUR_RESULTS		    OUT 	SYS_REFCURSOR
     ,PO_MESSAGE_CODE	    OUT 	INTEGER
     ,PO_MESSAGE 		    OUT 	VARCHAR2)
@@ -44,17 +43,20 @@ BEGIN
         ON AVR.FI_ID_ESQUEMA_AVRO = ESQ.FI_ID_ESQUEMA_AVRO
     INNER JOIN USRCTRLBO.CT_TOPICO_KAFKA TOP
         ON TOP.FI_ID_TOPICO_KAFKA = AVR.FI_ID_TOPICO_KAFKA
+    INNER JOIN USRCTRLBO.TA_TOPICO_CONSUMIDOR_KAFKA CONS
+        ON CONS.FI_ID_TOPICO_KAFKA = TOP.FI_ID_TOPICO_KAFKA
     WHERE
         (EVT.FD_FECHA_REGISTRO >= TO_DATE(PI_FECHA_REG_INI, 'YYYY-MM-DD') OR TO_DATE(PI_FECHA_REG_INI, 'YYYY-MM-DD') IS NULL)
         AND (EVT.FD_FECHA_REGISTRO >= TO_DATE(PI_FECHA_REG_FIN, 'YYYY-MM-DD') OR TO_DATE(PI_FECHA_REG_FIN, 'YYYY-MM-DD') IS NULL)
         AND (TRAN.FI_ID_TIPO_TRANSACCION = PI_TIPO_TRANSACCION OR PI_TIPO_TRANSACCION IS NULL)
-        AND (TOP.FI_ID_TOPICO_KAFKA = PI_TOPICO_KAFKA OR PI_TOPICO_KAFKA IS NULL)
+        AND (CONS.FI_ID_CONSUMIDOR_KAFKA = PI_ID_CONS_KAFKA OR PI_ID_CONS_KAFKA IS NULL)
         AND EVT.FI_ESTATUS = 1
         AND TRAN.FI_ESTATUS = 1
         AND USR.FI_ESTATUS = 1
         AND ESQ.FI_ESTATUS = 1
         AND AVR.FI_ESTATUS = 1
-        AND TOP.FI_ESTATUS = 1;
+        AND TOP.FI_ESTATUS = 1
+        AND CONS.FI_ESTATUS = 1;
 
     PO_MESSAGE_CODE := 0;
     PO_MESSAGE := 'SUCCESSFUL QUERY';
@@ -70,4 +72,4 @@ EXCEPTION
 		PO_MESSAGE_CODE := SQLCODE;
 		PO_MESSAGE := SQLERRM;
 -- End of the Stored procedure
-END SP_SEL_EVT_TOPICOS;
+END SP_SEL_EVT_CONSUMIDORES;
