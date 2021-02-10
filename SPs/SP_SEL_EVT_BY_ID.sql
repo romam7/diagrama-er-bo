@@ -12,7 +12,7 @@
     Creador: Román Badillo González
     Fecha de creación: 02/02/2021
 *************************************************************/
-CREATE OR REPLACE PROCEDURE SP_SEL_EVT_BY_ID(
+create or replace PROCEDURE SP_SEL_EVT_BY_ID(
     PI_ID_TRANSACCION   IN      INTEGER
     ,PO_CUR_RESULTS		OUT 	SYS_REFCURSOR
     ,PO_MESSAGE_CODE	OUT 	INTEGER

@@ -10,7 +10,7 @@
     Creador: Román Badillo González
     Fecha de creación: 02/02/2021
 *************************************************************/
-CREATE OR REPLACE PROCEDURE SP_SEL_TIPO_TRANSACCION(
+create or replace PROCEDURE SP_SEL_TIPO_TRANSACCION(
     PO_CUR_RESULTS		OUT 	SYS_REFCURSOR
     ,PO_MESSAGE_CODE	OUT 	INTEGER
     ,PO_MESSAGE 		OUT 	VARCHAR2)
@@ -24,7 +24,7 @@ BEGIN
         USRCTRLBO.CT_TIPO_TRANSACCION TRAN
     WHERE
         TRAN.FI_ESTATUS = 1;
-    
+
     PO_MESSAGE_CODE := 0;
     PO_MESSAGE := 'SUCCESSFUL QUERY';
 

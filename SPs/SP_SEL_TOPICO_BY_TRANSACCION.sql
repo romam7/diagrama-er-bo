@@ -11,7 +11,7 @@
     Creador: Román Badillo González
     Fecha de creación: 02/02/2021
 *************************************************************/
-CREATE OR REPLACE PROCEDURE SP_SEL_TOPICO_BY_TRANSACCION(
+create or replace PROCEDURE SP_SEL_TOPICO_BY_TRANSACCION(
     PI_ID_TIPO_TRAN     IN      INTEGER
     ,PO_CUR_RESULTS		OUT 	SYS_REFCURSOR
     ,PO_MESSAGE_CODE	OUT 	INTEGER
@@ -31,7 +31,7 @@ BEGIN
     WHERE TOP.FI_ESTATUS = 1
         AND ESQ.FI_ESTATUS = 1
         AND TRAN.FI_ESTATUS = 1;
-    
+
     PO_MESSAGE_CODE := 0;
     PO_MESSAGE := 'SUCCESSFUL QUERY';
 
