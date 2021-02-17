@@ -1,0 +1,56 @@
+create or replace PACKAGE PKG_SEL_EVT_BY_ID AS
+
+    PROCEDURE SP_SEL_EVT_BY_ID(
+        PI_ID_TRANSACCION   IN      INTEGER
+        ,PO_CUR_RESULTS		OUT 	SYS_REFCURSOR
+        ,PO_MESSAGE_CODE	OUT 	INTEGER
+        ,PO_MESSAGE 		OUT 	VARCHAR2);
+
+END PKG_SEL_EVT_BY_ID;
+
+-------------------------------------------------------------------------------------------------
+
+create or replace PACKAGE BODY PKG_SEL_EVT_BY_ID AS
+    PROCEDURE SP_SEL_EVT_BY_ID(
+        PI_ID_TRANSACCION   IN      INTEGER
+        ,PO_CUR_RESULTS		OUT 	SYS_REFCURSOR
+        ,PO_MESSAGE_CODE	OUT 	INTEGER
+        ,PO_MESSAGE 		OUT 	VARCHAR2)
+    AS
+        CC_ESTATUS_1     CONSTANT    NUMBER(1) := 1;
+    BEGIN
+        OPEN PO_CUR_RESULTS FOR
+        SELECT 
+            EVT.FD_FECHA_REGISTRO AS FD_FECHA_REGISTRO,
+            EVT.FI_ID_TRANSACCION AS FI_ID_TRANSACCION,
+            TRAN.FC_TIPO_TRANSACCION AS FC_TIPO_TRANSACCION,
+            USR.FC_USUARIO_REGISTRO AS FC_USUARIO_REGISTRO,
+            EVT.FC_JSON AS FB_JSON
+        FROM
+            USRCTRLBO.TA_EVENTO_CB EVT
+        INNER JOIN USRCTRLBO.CT_TIPO_TRANSACCION TRAN
+            ON TRAN.FI_ID_TIPO_TRANSACCION = EVT.FI_ID_TIPO_TRANSACCION
+        INNER JOIN USRCTRLBO.TA_USUARIO_REGISTRO USR
+            ON USR.FI_ID_USUARIO_REGISTRO = EVT.FI_ID_USUARIO_REGISTRO
+        WHERE FI_ID_TRANSACCION = PI_ID_TRANSACCION
+            AND EVT.FI_ESTATUS = CC_ESTATUS_1
+            AND TRAN.FI_ESTATUS = CC_ESTATUS_1
+            AND USR.FI_ESTATUS = CC_ESTATUS_1;
+
+        PO_MESSAGE_CODE := 0;
+        PO_MESSAGE := 'SUCCESSFUL QUERY';
+
+    -- To handle exceptions
+    EXCEPTION
+        -- Exception when pl/sql has an internal error
+        WHEN PROGRAM_ERROR THEN
+            PO_MESSAGE_CODE := SQLCODE;
+            PO_MESSAGE := SQLERRM;
+        -- Exception to catch all those exceptions not managed before
+        WHEN OTHERS THEN
+            PO_MESSAGE_CODE := SQLCODE;
+            PO_MESSAGE := SQLERRM;
+    -- End of the Stored procedure
+    END SP_SEL_EVT_BY_ID;
+
+END PKG_SEL_EVT_BY_ID;
